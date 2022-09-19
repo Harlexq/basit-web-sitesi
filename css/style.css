@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-family: Arial;
+}
+
+.header {
+    padding: 25px;
+    background-color: white;
+    text-align: center;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: black;
+}
+
+.nav a {
+    padding: 15px 17px;
+    float: left;
+    text-decoration: none;
+    color: white;
+}
+
+.nav a:hover {
+    background-color: grey;
+}
+
+.sol {
+    float: left;
+    width: 75%;
+}
+
+.sağ {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.fakeimg {
+    background-color: #aaa;
+    padding: 30px;
+    width: 100%;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    background-color: #ddd;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+
+    .sol,
+    .sağ {
+        width: 100%;
+    }
+}
